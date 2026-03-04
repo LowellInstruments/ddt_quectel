@@ -1,8 +1,8 @@
 # Cell shield firmware update
 
-Old cell shield firmware may be from 2017 or 2019.
+Old cell shield firmware may be from 2017 or 2019 or 2022.
 
-Open the terminal window in DW Service.  Switch to root by typing:
+Open terminal window:
 
 ```console
 su pi
@@ -30,7 +30,7 @@ If you need to update cell shield firmware version (we have the newest 2022) for
 ```console
 cd /home/pi/li/ddt_quectel;
 unzip QFirehose_Linux_Android_V1.4.13.zip;
-unzip EG25GGBR07A08M2G_30.007.30.007.zip;
+unzip EG25GGBR07A08M2G_A0.303.A0.303_2025.zip;
 cd QFirehose_Linux_Android_V1.4.13;
 make;
 sudo ./QFirehose -f ..
