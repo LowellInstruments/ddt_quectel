@@ -41,7 +41,7 @@ Instead, for ```EC25 modules``` do:
 ```console
 cd /home/pi/li/ddt_quectel;
 unzip QFirehose_Linux_Android_V1.4.13.zip;
-unzip EC25AFAR05A07M4G_30.003.30.003.zip;
+unzip cell_fw_2025.zip;
 cd QFirehose_Linux_Android_V1.4.13;
 make;
 sudo ./QFirehose -f ..
