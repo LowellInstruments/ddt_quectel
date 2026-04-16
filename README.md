@@ -25,7 +25,7 @@ cd /home/pi/li;
 git clone https://github.com/lowellinstruments/ddt_quectel.git --depth 1
 ```
 
-If you need to update cell shield firmware version (we have the newest 2022) for ```EG25 modules``` (not EC25) just do:
+If you need to update cell shield firmware version (we have the newest 2025) for ```EG25 modules``` (not EC25) just do:
 
 ```console
 cd /home/pi/li/ddt_quectel;
